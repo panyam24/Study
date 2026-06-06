@@ -8,6 +8,6 @@ export default defineConfig({
     outDir: 'docs',  
   },
   server: {
-    allowedHosts: 'all',
+    allowedHosts: true
   },
 })
